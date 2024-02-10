@@ -3,8 +3,8 @@ import click
 
 @click.command()
 @click.argument("number", nargs=1, type=float, required=True)
-@click.option("--kilos", "-k", is_flag=True, default=False, help="Number of kilometers to convert to miles.")
-@click.option("--miles", "-m", is_flag=True, default=False, help="Number of miles to convert to kilometers.")
+@click.option("--kilos", "-k", is_flag=True, default=False, help="Converts miles to kilometers")
+@click.option("--miles", "-m", is_flag=True, default=False, help="Converts kilometers to miles.")
 def cli(number, kilos, miles):
     if kilos:
         converted_value = round(number * 0.62137, 2)
