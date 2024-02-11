@@ -14,5 +14,5 @@ def cli(number, kilos, miles):
         click.echo(f"{number} miles is {converted_value} kilometers.")
 
 
-if __name__ == "__main__":
-    cli()
+# if __name__ == "__main__":
+#     cli()
