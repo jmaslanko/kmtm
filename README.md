@@ -3,5 +3,25 @@ A simple CLI tool to convert kilometers to miles so that I don't have to look up
 conversion each time I see someone post about cycling/running stats.
 
 # Installation
-`pip install kmtkm`
+```
+pip install kmtkm
+```
+
+# Usage
+
+Example
+```
+kmtm 10 -k
+```
+
+For this example, 10 is the distance that you would like to convert, and `-k` represents the unit you would like the distance converted to.  In this situation, 10 miles will be converted to kilometers.
+
+
+## kmtm --help
+```
+Options:
+  -k, --kilos  Converts miles to kilometers
+  -m, --miles  Converts kilometers to miles.
+  --help       Show this message and exit.
+  ```
 
