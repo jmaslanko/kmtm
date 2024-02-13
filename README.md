@@ -6,6 +6,7 @@ conversion each time I see someone post about cycling/running stats.
 ```
 pip install kmtkm
 ```
+Okay, well not yet because I haven't looked into adding to pypi yet..
 
 ## Usage
 
