@@ -18,7 +18,7 @@ import click
 def cli(number, kilos, miles):
     if kilos:
         converted_value = round(number * 1.60934, 2)
-        click.echo(f"{number} kilometers is {converted_value} miles.")
+        click.echo(f"{number} miles is {converted_value} kilometers.")
     if miles:
         converted_value = round(number * 0.62137, 2)
-        click.echo(f"{number} miles is {converted_value} kilometers.")
+        click.echo(f"{number} kilometers is {converted_value} miles.")
