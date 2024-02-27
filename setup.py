@@ -16,6 +16,7 @@ setup(
     url='https://github.com/jmaslanko/kmtm',
     description='Simple tool to convert kilometers/miles.',
     long_description=get_long_desc(),
+    long_description_content_type='text/markdown',
     classifiers = [
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
