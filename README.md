@@ -22,8 +22,8 @@ The NUMBER is a required argument and both `-k` and `-m` are options that can be
 ### kmtm --help
 ```
 Options:
-  -k, --kilos  Converts miles to kilometers
-  -m, --miles  Converts kilometers to miles.
+  -k, --kilos  Kilometers is the desired output. Assumes miles is given.
+  -m, --miles  Miles is the desired output. Assumes kilometers is given.
   --help       Show this message and exit.
   ```
 

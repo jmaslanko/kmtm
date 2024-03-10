@@ -9,7 +9,7 @@ def get_long_desc():
 
 setup(
     name='kmtm',
-    version='0.1.0',
+    version='0.1.2',
     py_modules=['kmtm'],
     author='Jeremy Maslanko',
     author_email='maslankoj@gmail.com',
